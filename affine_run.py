@@ -1,3 +1,6 @@
+# Copyright (C) H.R. Oosterhuis 2020.
+# Distributed under the MIT License (see the accompanying README.md and LICENSE files).
+
 import argparse
 import json
 import numpy as np
