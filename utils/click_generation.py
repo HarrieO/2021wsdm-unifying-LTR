@@ -44,7 +44,7 @@ def simulate_on_dataset(data_train,
    validation_displays,
    validation_samples_per_query) = simulate_queries(
                      data_validation,
-                     samples_per_split[0],
+                     samples_per_split[1],
                      validation_doc_weights,
                      alpha,
                      beta,

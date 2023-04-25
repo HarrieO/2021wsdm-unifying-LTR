@@ -120,6 +120,7 @@ def optimize_policy(model, optimizer,
       last_metric_value = metrics[1]
       if best_metric_value < metrics[1]:
         best_weights = model.get_weights()
+        best_metric_value = metrics[1]
       if abs_improvement < early_stop_diff:
         break
 
